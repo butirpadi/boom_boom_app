@@ -1,0 +1,25 @@
+<odoo>
+	<data>
+
+		<menuitem name="Membership" id="menu_membership_root"
+			sequence="100" />
+		<menuitem name="Ticketing" id="menu_ticketing_root"
+			sequence="101" />
+
+
+		<menuitem name="Membership" parent="menu_membership_root"
+			id="menu_action_membership_parent" sequence="1" />
+
+		<menuitem name="Member"
+			parent="menu_action_membership_parent" action="membership_action"
+			id="menu_action_member" sequence="1" />
+
+		<menuitem name="Ticketing" parent="menu_ticketing_root"
+			id="menu_action_ticketing_parent" sequence="1" />
+
+		<menuitem name="Ticket" parent="menu_action_ticketing_parent"
+			action="ticketing_product_template_action" id="menu_action_ticket"
+			sequence="1" />
+
+	</data>
+</odoo>
