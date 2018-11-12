@@ -1,5 +1,5 @@
-from odoo import api, fields, models
-from odoo.addons.base.res.res_partner import WARNING_MESSAGE, WARNING_HELP
+from flectra import api, fields, models
+from flectra.addons.base.res.res_partner import WARNING_MESSAGE, WARNING_HELP
 from pprint import pprint
 
 
@@ -19,4 +19,4 @@ class ProductTemplate(models.Model):
 
         result = super(ProductTemplate, self).create(vals)
         return result
-    
+     

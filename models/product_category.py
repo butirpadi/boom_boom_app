@@ -1,5 +1,5 @@
-from odoo import api, fields, models, _
-from odoo.exceptions import AccessError, UserError, RedirectWarning, ValidationError, Warning
+from flectra import api, fields, models, _
+from flectra.exceptions import AccessError, UserError, RedirectWarning, ValidationError, Warning
 
 
 class ProductCategory(models.Model):

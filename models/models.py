@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields, api
+from flectra import models, fields, api
 
 # class boom_boom_app(models.Model):
 #     _name = 'boom_boom_app.boom_boom_app'
@@ -12,4 +12,4 @@ from odoo import models, fields, api
 #
 #     @api.depends('value')
 #     def _value_pc(self):
-#         self.value2 = float(self.value) / 100
+#         self.value2 = float(self.value) / 100 

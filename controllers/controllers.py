@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from odoo import http
+from flectra import http
 
 # class BoomBoomApp(http.Controller):
 #     @http.route('/boom_boom_app/boom_boom_app/', auth='public')
@@ -17,4 +17,4 @@ from odoo import http
 #     def object(self, obj, **kw):
 #         return http.request.render('boom_boom_app.object', {
 #             'object': obj
-#         })
+#         }) 

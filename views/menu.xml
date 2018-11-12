@@ -1,4 +1,4 @@
-<odoo>
+<flectra>
 	<data>
 
 		<menuitem name="Membership" id="menu_membership_root"
@@ -22,4 +22,4 @@
 			sequence="1" />
 
 	</data>
-</odoo>
+</flectra>

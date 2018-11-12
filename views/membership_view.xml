@@ -1,4 +1,4 @@
-<odoo>
+<flectra>
 	<data>
 
 		<record id="view_partner_form_membership" model="ir.ui.view">
@@ -116,9 +116,9 @@
 			<field name="view_mode">kanban,tree,form</field> <field name="context">{"search_default_customer":1}</field> 
 			<field name="search_view_id" ref="view_res_partner_filter"/> <field name="help" 
 			type="html"> <p class="oe_view_nocontent_create"> Click to add a contact 
-			in your address book. </p><p> Odoo helps you easily track all activities 
+			in your address book. </p><p> Flectra helps you easily track all activities 
 			related to a customer: discussions, history of business opportunities, documents, 
 			etc. </p> </field> </record> -->
 
 	</data>
-</odoo>
+</flectra>
